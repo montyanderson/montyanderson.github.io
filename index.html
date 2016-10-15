@@ -12,12 +12,16 @@
 
 		<style>
 		body {
-			background: url(bg.jpg) no-repeat center center fixed;
+			background: url(bg2.jpg) no-repeat center center fixed;
 
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
+		}
+
+		.main {
+			padding-top: 4rem;
 		}
 
 		.profile-image, .icons i {
@@ -35,20 +39,25 @@
 		.icons i:hover {
 			opacity: 0.4;
 		}
+
+		.text {
+			border-radius: 3px;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 		</style>
 
 	</head>
 	<body>
 
-		<nav class="white lighten-1">
+		<!--<nav class="white lighten-1">
 			<div class="nav-wrapper container">
 				<a href="#" class="blue-text brand-logo">Monty Anderson</a>
 			</div>
-		</nav>
+		</nav>-->
 
-		<div class="container white-text">
+		<div class="main container white-text">
 			<div class="row">
-				<div class="col s12 m4">
+				<div class="col s12 m6 l4">
 					<div class="card">
 						<div class="card-image">
 							<img class="profile-image" src="https://secure.gravatar.com/avatar/6730458b75d08cf280081311cfca540c?s=800">
@@ -56,18 +65,20 @@
 					</div>
 
 				</div>
-				<div class="col s12 m8">
-					<p class="flow-text">Hi. I'm Monty. I write scalable, functional apps using node, redis, and mongo. I've been programming over half my life, and I generally end up programming every single day. I enjoy Maths, and I love progressive music.</p>
+				<div class="col s12 m6 l8 text">
+					<div class="row center-align">
+						<p class="flow-text">Hi. I'm Monty. I write scalable, functional apps using node, redis, and mongo. I've been programming over half my life, and I generally end up programming every single day. I enjoy Maths, and I love progressive music.</p>
 
-					<p class="flow-text">I'm the creator of <a href="http://storm.montyanderson.net">storm</a>, a 'smart' Spotify playlist generator that allows you to create playlists based on artists, genres, feelings, and ideas.</p>
+						<p class="flow-text">I'm the creator of <a href="http://storm.montyanderson.net">storm</a>, a 'smart' Spotify playlist generator that allows you to create playlists based on artists, genres, feelings, and ideas.</p>
 
-					<div class="row icons">
-						<div class="col s6 center">
-							<h1><a href="https://github.com/montyanderson"><i class="fa fa-github white-text" aria-hidden="true"></i></a></h1>
-						</div>
+						<div class="row icons">
+							<div class="col s6 center">
+								<h1><a href="https://github.com/montyanderson"><i class="fa fa-github white-text" aria-hidden="true"></i></a></h1>
+							</div>
 
-						<div class="col s6 center">
-							<h1><a href="https://twitter.com/montyjanderson"><i class="fa fa-twitter white-text" aria-hidden="true"></i></a></h1>
+							<div class="col s6 center">
+								<h1><a href="https://twitter.com/montyjanderson"><i class="fa fa-twitter white-text" aria-hidden="true"></i></a></h1>
+							</div>
 						</div>
 					</div>
 				</div>
