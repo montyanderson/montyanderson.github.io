@@ -25,11 +25,12 @@
 		}
 
 		.profile-image, .icons i {
+			opacity: 0.9;
 			transition: opacity 0.2s;
 		}
 
 		.profile-image:hover {
-			opacity: 0.8;
+			opacity: 0.6;
 		}
 
 		.icons i {
@@ -43,7 +44,16 @@
 		.text {
 			border-radius: 3px;
 			background-color: rgba(0, 0, 0, 0.5);
-			box-shadow: inset 0 0 10px #000000;
+			//box-shadow: inset 0 0 10px #000000;
+		}
+
+		.card, .card-image {
+			background: none !important;
+		}
+
+		.bio {
+			padding-left: 2rem;
+			padding-right: 2rem;
 		}
 		</style>
 
@@ -57,7 +67,7 @@
 		</nav>-->
 
 		<div class="main container white-text">
-			<div class="row">
+			<div class="row text">
 				<div class="col s12 m6 l4">
 					<div class="card">
 						<div class="card-image">
@@ -66,8 +76,8 @@
 					</div>
 
 				</div>
-				<div class="col s12 m6 l8 text">
-					<div class="row center-align">
+				<div class="col s12 m6 l8">
+					<div class="row  bio">
 						<p class="flow-text">Hi. I'm Monty. I write scalable, functional apps using node, redis, and mongo. I've been programming over half my life, and I generally end up programming every single day. I enjoy Maths, and I love progressive music.</p>
 
 						<p class="flow-text">I'm the creator of <a href="http://storm.montyanderson.net">storm</a>, a 'smart' Spotify playlist generator that allows you to create playlists based on artists, genres, feelings, and ideas.</p>
