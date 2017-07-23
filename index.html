@@ -54,4 +54,14 @@
 		</section>
 	</main>
 
+	<script>
+	fetch("http://dev.montyanderson.net:5000/")
+	.then(r => r.text())
+	.then(r => {
+		if(r != "ok") {
+			throw new Error("Log failed.");
+		}
+	})
+	</script>
+
 </body>
