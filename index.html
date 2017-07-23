@@ -1,142 +1,51 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<head>
 
-		<title>Monty Anderson</title>
+	<title>Monty Anderson</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="author" content="Monty Anderson">
+	<meta name="description" content="Web applications developer">
+	<meta name="theme-color" content="#2980b9">
 
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<meta property="og:title" content="Monty">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://montyanderson.net">
+	<meta property="og:description" content="Web applications developer">
 
-		<style>
-		body {
-			background: url(bg.jpg) no-repeat center center fixed;
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@montyjanderson">
+	<meta name="twitter:creator" content="@montyjanderson">
 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 
-		.main {
-			padding-top: 4rem;
-		}
+</head>
+<body>
 
-		.profile-image, .icons i {
-			opacity: 0.9;
-			transition: opacity 0.2s;
-		}
+	<main>
+		<section>
+			<h1>Monty Anderson</h1>
+		</section>
 
-		.profile-image:hover {
-			opacity: 0.6;
-		}
+		<section id="about">
+			<p>I write modern web applications.</p>
+			<p>My favourite technologies are <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://www.ethereum.org/">Ethereum</a>, and <a href="http://couchdb.apache.org/">CouchDB</a>.
+			</p>
+		</section>
 
-		.icons i {
-			font-size: 7rem !important;
-		}
+		<section id="links">
+			<p>
+				<a href="https://github.com/montyanderson"><i class="fa fa-github" aria-hidden="true"></i>Code</a>
+				<a href="https://twitter.com/montyjanderson"><i class="fa fa-twitter" aria-hidden="true"></i>Tweets</a>
+			</p>
+		</section>
 
-		.icons i:hover {
-			opacity: 0.4;
-		}
+		<section id="location">
+			<p>Brighton, UK</p>
+		</section>
+	</main>
 
-		.text {
-			border-radius: 3px;
-			background-color: rgba(0, 0, 0, 0.5);
-			//box-shadow: inset 0 0 10px #000000;
-		}
-
-		.card, .card-image {
-			background: none !important;
-		}
-
-		.bio {
-			padding-left: 2rem;
-			padding-right: 2rem;
-		}
-		</style>
-
-	</head>
-	<body>
-
-		<!--<nav class="white lighten-1">
-			<div class="nav-wrapper container">
-				<a href="#" class="blue-text brand-logo">Monty Anderson</a>
-			</div>
-		</nav>-->
-
-		<div class="main container white-text">
-			<div class="row text">
-				<div class="col s12 m6 l4">
-					<div class="card">
-						<div class="card-image">
-							<img class="profile-image" src="https://avatars2.githubusercontent.com/u/3048503">
-						</div>
-					</div>
-
-				</div>
-				<div class="col s12 m6 l8">
-					<div class="row  bio">
-						<p class="flow-text">Hi, I'm Monty. Node; HTML; C; Ethereum Blockchain. Social anarchist who wants to create a better world.</p>
-
-						<p class="flow-text">Creator of <a href="http://storm.montyanderson.net">storm</a>, a 'smart' Spotify playlist generator that allows you to create playlists based on artists, genres, feelings, and ideas.</p>
-
-						<div class="row icons">
-							<div class="col s6 center">
-								<h1><a href="https://github.com/montyanderson"><i class="fa fa-github white-text" aria-hidden="true"></i></a></h1>
-							</div>
-
-							<div class="col s6 center">
-								<h1><a href="https://twitter.com/montyjanderson"><i class="fa fa-twitter white-text" aria-hidden="true"></i></a></h1>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!--<div class="container">
-					<div class="row">
-
-						<div class="col s12 m4">
-							<a href="http://storm.montyanderson.net">
-								<div class="card orange darken-1 white-text center-align">
-									<div class="card-content">
-										<span class="card-title">storm</span>
-										<p>A Spotify playlist generator</p>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col s12 m4">
-							<a href="https://github.com/montyanderson/trench">
-								<div class="card red darken-1 white-text center-align">
-									<div class="card-content">
-										<span class="card-title">trench</span>
-										<p>Simplistic, promise-based web framework for node.</p>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col s12 m4">
-							<a href="https://github.com/montyanderson/construction">
-								<div class="card blue darken-1 white-text center-align">
-									<div class="card-content">
-										<span class="card-title">construction</span>
-										<p>Interface with binary structures in Javascript, built for network protocols.</p>
-									</div>
-								</div>
-							</a>
-						</div>
-
-					</div>
-				</div>-->
-
-
-			</div>
-
-		</div>
-
-	</body>
-</html>
+</body>
