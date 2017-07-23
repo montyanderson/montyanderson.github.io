@@ -3,19 +3,13 @@
 	padding: 0;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	html {
-		font-size: 0.5em;
-	}
-
-	main {
-		width: 95% !important;
-	}
+html {
+	font-size: 16px;
 }
 
-
 body {
-	font-family: "Maven Pro";
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: "Maven Pro", sans-serif;
 	line-height: 1.25;
 	color: #888;
 }
@@ -34,6 +28,46 @@ main {
 	text-align: center;
 }
 
+@media only screen and (min-width: 0px) {
+	html {
+		font-size: 6px;
+	}
+
+	main {
+		width: 95%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+
+	main {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	html {
+		font-size: 14px;
+	}
+
+	main {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	html {
+		font-size: 16px;
+	}
+
+	main {
+		width: 65%;
+	}
+}
+
 main section {
 	margin-bottom: 3rem;
 }
@@ -44,6 +78,7 @@ main h1 {
 	-webkit-background-clip: text;
 	color: transparent;
 	text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
+	font-weight: 900;
 }
 
 main p {
