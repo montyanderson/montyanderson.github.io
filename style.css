@@ -73,7 +73,7 @@ main section {
 }
 
 main h1 {
-	background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+	background: linear-gradient(to right, #85d4ff, #ff6e7f);
 	font-size: 8rem;
 	-webkit-background-clip: text;
 	color: transparent;
