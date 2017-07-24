@@ -44,7 +44,7 @@ main {
 	}
 
 	main {
-		width: 85%;
+		width: 80%;
 	}
 }
 
@@ -54,7 +54,7 @@ main {
 	}
 
 	main {
-		width: 70%;
+		width: 65%;
 	}
 }
 
@@ -64,7 +64,7 @@ main {
 	}
 
 	main {
-		width: 65%;
+		width: 55%;
 	}
 }
 
@@ -82,7 +82,7 @@ main h1 {
 }
 
 main p {
-	font-size: 3.5rem;
+	font-size: 3rem;
 }
 
 main a {
