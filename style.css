@@ -79,6 +79,11 @@ main h1 {
 	color: transparent;
 	text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
 	font-weight: 900;
+	transition: opacity 0.15s;
+}
+
+main h1:hover {
+	opacity: 0.8;
 }
 
 main p {
