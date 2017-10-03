@@ -2,4 +2,4 @@
 
 My website.
 
-[![](http://i.imgur.com/s03Z1S2.jpg)](http://montyanderson.net)
+[![](https://i.imgur.com/T0iKX0P.png)](http://montyanderson.net)
