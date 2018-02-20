@@ -29,10 +29,15 @@
 	<link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Person">
+	<meta itemprop="gender" content="http://schema.org/Male">
+	<meta itemprop="email" content="montydev@protonmail.com">
+	<meta itemprop="jobTitle" content="Developer">
+	<meta itemprop="nationality" content="British">
+	<meta itemprop="url" content="http://montyanderson.net">
 
 	<header class="container">
-		<h1>Monty Anderson</h1>
+		<h1><span itemprop="givenName">Monty</span> <span itemprop="familyName">Anderson</span></h1>
 	</header>
 
 	<div class="container row">
