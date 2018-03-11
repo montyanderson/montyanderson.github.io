@@ -31,13 +31,13 @@
 </head>
 <body itemscope itemtype="http://schema.org/Person">
 	<meta itemprop="gender" content="http://schema.org/Male">
-	<meta itemprop="email" content="montydev@protonmail.com">
+	<meta itemprop="email" content="work@montyanderson.net">
 	<meta itemprop="jobTitle" content="Developer">
 	<meta itemprop="nationality" content="British">
 	<meta itemprop="url" content="http://montyanderson.net">
 
 	<header class="container">
-		<h1 itemprop="name">Monty Anderson</h1>
+		<h1>Monty Anderson</h1>
 	</header>
 
 	<div class="container row">
@@ -45,7 +45,7 @@
 			<nav>
 				<div class="row">
 					<div class="col-xs-4">
-						<p><a href="mailto:montydev@protonmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</a></p>
+						<p><a href="mailto:work@montyanderson.net"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</a></p>
 					</div>
 
 					<div class="col-xs-4">
@@ -68,22 +68,11 @@
 
 					<p>I'm the creator of an <a href="https://github.com/montyanderson/cabbage">on-commit auto-deployment service</a>, a <a href="https://github.com/montyanderson/receipt-service">receipt-printing service</a>, a <a href="https://github.com/montyanderson/storm">spotify playlist generator</a>, an <a href="https://github.com/montyanderson/ethsocial">ethereum social network</a>, a <a href="https://github.com/montyanderson/stdrpc">JSON-RPC library</a>, a <a href="https://github.com/montyanderson/foop">framework for OO in C</a>, and about <a href="https://github.com/montyanderson?tab=repositories">231 other projects</a>.</p>
 
-					<p>I'm currently working with <a href="https://ninjatune.net">Ninja Tune</a> and <a href="https://tedra.net">Tedra</a>. If you're interested why not <a href="mailto:montydev@protonmail.com">send me an email</a>?</p>
+					<p>I'm currently working with <a href="https://ninjatune.net">Ninja Tune</a> and <a href="https://tedra.net">Tedra</a>. If you're interested why not <a href="mailto:work@montyanderson.net">send me an email</a>?</p>
 
 					<p class="grey">Brighton, UK</p>
 				</section>
 			</main>
 		</div>
 	</div>
-
-	<script>
-	fetch("http://dev.montyanderson.net:5000/")
-	.then(r => r.text())
-	.then(r => {
-		if(r != "ok") {
-			throw new Error("Log failed.");
-		}
-	})
-	</script>
-
 </body>
