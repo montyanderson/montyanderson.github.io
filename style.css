@@ -3,45 +3,18 @@
 	padding: 0;
 }
 
-html {
-	font-size: 16px;
-}
-
-body {
-	-webkit-font-smoothing: subpixel-antialiased;
-	font-family: "Lato", sans-serif;
-	line-height: 1.35;
-	color: #777;
-}
-
-header {
-	margin-top: 4rem !important;
-}
-
-.container {
-	margin-left: auto;
-	margin-right: auto;
-
-	text-align: center;
-	margin-top: 1rem;
-}
-
-main {
-	margin-top: 1rem;
-}
-
 @media only screen and (min-width: 0px) {
-	html { font-size: 8px; }
+	html { font-size: 11px; }
 	.container { width: 95%; }
 }
 
 @media only screen and (min-width: 500px) {
-	html { font-size: 12px; }
+	html { font-size: 14px; }
 	.container  { width: 80%; }
 }
 
 @media only screen and (min-width: 1100px) {
-	html { font-size: 13px; }
+	html { font-size: 16px; }
 	.container { width: 51%; }
 
 	main {
@@ -51,56 +24,56 @@ main {
 	}
 }
 
+body {
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: "Lato", sans-serif;
+	line-height: 1.35;
+	color: #363636;
+}
 
-
-section {
-	margin-bottom: 3rem;
+section:nth-child(odd) {
+	background-color: #f7f7f8;
 }
 
 h1 {
-	font-family: "Maven Pro", sans-serif;
-	line-height: 1.2;
-	letter-spacing: -0.2rem;
-	font-weight: 500;
-	background: linear-gradient(to right, #85d4ff, #85d4ff 10%, #ff6e7f 90%, #ff6e7f);
-	font-size: 8rem;
-	-webkit-background-clip: text;
-	color: transparent;
-	//text-shadow: 0.2rem 0.2rem 0.3rem rgba(255, 255, 255, 0.2);
-	transition: opacity 0.15s;
-}
-
-h2, h3, h4, h5, h6, p {
-	font-weight: 300;
-	margin-bottom: 1.5rem;
+	font-size: 3rem;
 }
 
 h2 {
-	font-size: 3.5rem;
+	font-size: 1.6rem;
 }
 
-p {
-	font-size: 2.3rem;
-}
-
-p.grey {
-	color: #888;
+h3 {
+	font-size: 1.5rem;
 }
 
 a {
-	text-decoration: inherit;
+	text-decoration: none;
 	outline: inherit;
-	//background: linear-gradient(to right, #3498db, #2980b9);
-	color: #3498db;
-	-webkit-background-clip: text;
-	transition: opacity 0.15s;
+	color: #222;
 }
 
-a:hover {
-	opacity: 0.7;
+/* section.profile */
+
+.profile {
+	text-align: center;
 }
 
-a i {
-	margin-right: 2rem;
-	color: #2980b9;
+.profile h2 {
+	margin-bottom: 2rem;
+}
+
+.avatar {
+	width: 18rem;
+	border-radius: 9rem;
+
+	margin-top: 10vh;
+	margin-bottom: 2rem;
+}
+
+.link {
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	padding: 0.5rem 1rem 0.5rem 1rem;
 }
