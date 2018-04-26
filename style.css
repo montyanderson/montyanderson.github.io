@@ -59,8 +59,12 @@ a {
 	text-align: center;
 }
 
-.profile h2 {
+.profile > * {
 	margin-bottom: 2rem;
+}
+
+.profile > h1 {
+	margin-bottom: 1rem;
 }
 
 .avatar {
@@ -76,4 +80,9 @@ a {
 	margin-right: 1rem;
 
 	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.tweet twitterwidget {
+	margin-left: auto;
+	margin-right: auto;
 }
