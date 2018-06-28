@@ -4,23 +4,33 @@
 }
 
 @media only screen and (min-width: 0px) {
-	html { font-size: 11px; }
-	.container { width: 95%; }
+	html { font-size: 10px; }
+
+	.container {
+		width: 94%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media only screen and (min-width: 350px) {
 	html { font-size: 12px; }
-	.container { width: 95%; }
+	.container { width: 90%; }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 	html { font-size: 14px; }
 	.container  { width: 80%; }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 800px) {
+	html { font-size: 14px; }
+	.container  { width: 65%; }
+}
+
+@media only screen and (min-width: 1000px) {
 	html { font-size: 16px; }
-	.container { width: 51%; }
+	.container { width: 30%; }
 
 	main {
 		width: 80%;
@@ -44,22 +54,17 @@ h2 {
 	font-size: 1.6rem;
 }
 
-h3 {
-	font-size: 1.5rem;
-}
-
-h4 {
+p {
+	font-size: 1.2rem;
 	font-weight: 900;
-}
-
-h4, p {
-	font-size: 1rem;
 }
 
 a {
 	text-decoration: none;
 	outline: inherit;
 	color: #0984e3;
+
+	font-size: 1.5;
 }
 
 /* section.profile */
@@ -69,11 +74,11 @@ a {
 }
 
 .profile > * {
-	margin-bottom: 2rem;
+	margin-bottom: 1.2rem;
 }
 
 .profile > h1 {
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .avatar {
@@ -84,12 +89,18 @@ a {
 	margin-bottom: 2rem;
 }
 
+.links {
+	margin-top: 2rem;
+}
+
 .link {
 	margin-left: 1rem;
 	margin-right: 1rem;
 
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	color: #2d3436;
+
+	font-size: 1.6rem;
 }
 
 .tweet twitterwidget {
