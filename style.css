@@ -102,10 +102,3 @@ a {
 
 	font-size: 1.6rem;
 }
-
-.tweet twitterwidget {
-	margin-left: auto;
-	margin-right: auto;
-
-	width: 30rem !important;
-}
