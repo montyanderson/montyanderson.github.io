@@ -20,6 +20,13 @@ main {
 	margin-right: auto;
 }
 
+@media (min-width:1025px) {
+	main {
+		transform-origin: center;
+		transform: scale(1.25);
+	}
+}
+
 main .picture {
 	position: absolute;
 	width: 149px;
